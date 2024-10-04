@@ -8,7 +8,7 @@ This project implements a circular linked list to manage and schedule CPU proces
 - **Fixed Time**: Each process is allocated a fixed time for execution.
 - **Dynamic Memory Management**: Proper handling of process completion and memory cleanup.
 
-# Circular Linked List CPU Scheduling(users can also add new processes)
+# Flexible CPU Scheduling using Cicrular Linked List
 
 This project implements a circular linked list to simulate a CPU scheduling algorithm. The program manages processes with their execution and remaining times, allowing for dynamic updates and scheduling.
 
