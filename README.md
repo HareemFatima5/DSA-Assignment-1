@@ -17,9 +17,9 @@ This project implements a circular linked list to simulate a CPU scheduling algo
 - **Dynamic Process Management**: Users can add new processes during scheduling.
 - **Dynamic Memory Management**: Proper handling of process completion and memory cleanup.
 
-# 1024-bit Primality Testing with Circular Linked List
+# 1024-bit Primality Testing 
 
-This project implements a primality testing algorithm for a 1024-bit number using a circular linked list in C++. The program generates a random 64-bit number and reconstructs a larger number to check its primality using the Miller-Rabin primality test.
+This implements a primality testing algorithm for a 1024-bit number using a in C++. The program generates a random 64-bit number and reconstructs a larger number to check its primality using the Miller-Rabin primality test.
 
 ## Features
 
