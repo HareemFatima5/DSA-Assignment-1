@@ -1,4 +1,4 @@
-# Circular Linked List CPU Scheduling
+# CPU Scheduling using Circular Linked List
 
 This project implements a circular linked list to manage and schedule CPU processes using a fixed time approach. Each process is represented as a node in the circular linked list, allowing efficient traversal and removal of completed processes.
 
