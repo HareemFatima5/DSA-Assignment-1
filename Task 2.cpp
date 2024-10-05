@@ -229,7 +229,8 @@ int main() {
 
 		// reconstructing the number
 		string after_conversion = linked_list.conversion();
-		cout << "Input: A 1024-bit number represented as \"" << after_conversion << "\"" << endl;
+		cout << "Input: A 1024-bit number represented as "" <<endl
+		cout<< after_conversion << endl;
 
 		// printing smaller prime numbers
 		print();
