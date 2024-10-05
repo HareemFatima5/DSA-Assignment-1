@@ -8,16 +8,16 @@ This project implements a circular linked list to manage and schedule CPU proces
 - **Fixed Time**: Each process is allocated a fixed time for execution.
 - **Dynamic Memory Management**: Proper handling of process completion and memory cleanup.
 
-## Challenges
-
-- Efficiently managing memory when processes are completed and nodes are removed from the circular linked list.
-- Ensuring the proper traversal of the circular linked list without falling into infinite loops or skipping nodes.
-
 ## Assumptions
 
 - Each process is represented by a unique process ID.
 - Remaining execution times are non-negative and initialized correctly.
 - The fixed time input for process execution is valid and greater than zero.
+
+## Challenges
+
+- Efficiently managing memory when processes are completed and nodes are removed from the circular linked list.
+- Ensuring the proper traversal of the circular linked list without falling into infinite loops or skipping nodes.
 
 # Flexible CPU Scheduling using Cicrular Linked List
 
@@ -49,6 +49,12 @@ This implements a primality testing algorithm for a 1024-bit number using a in C
 - **Miller-Rabin Primality Test**: Efficiently tests if the constructed number is prime.
 - **Display of Smaller Primes**: Lists smaller prime numbers for reference.
 
+ ## Assumptions
+
+- Input consists of 16 linked nodes representing a valid 1024-bit integer.
+- Random numbers generated are sufficiently random and independent.
+- Smaller prime range in the print function is fixed at 100.
+
 ## Challenges
 
 - Memory management issues may lead to leaks if nodes are not properly deleted.
@@ -56,12 +62,6 @@ This implements a primality testing algorithm for a 1024-bit number using a in C
 - Integer overflow may occur when reconstructing the 1024-bit number from 64-bit chunks.
 - Algorithm complexity may impact performance with large inputs.
 - Primality testing can be slow for larger numbers with high iteration counts.
-
-## Assumptions
-
-- Input consists of 16 linked nodes representing a valid 1024-bit integer.
-- Random numbers generated are sufficiently random and independent.
-- Smaller prime range in the print function is fixed at 100.
 
 ## Requirements
 
