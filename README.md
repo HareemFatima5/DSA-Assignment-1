@@ -18,6 +18,7 @@ This project implements a circular linked list to manage and schedule CPU proces
 
 - Efficiently managing memory when processes are completed and nodes are removed from the circular linked list.
 - Ensuring the proper traversal of the circular linked list without falling into infinite loops or skipping nodes.
+- Ensuring that their remaining times are accurately tracked upon restart.
 
 # Flexible CPU Scheduling using Cicrular Linked List
 
@@ -39,6 +40,7 @@ This project implements a circular linked list to simulate a CPU scheduling algo
 
 - Handling dynamic scheduling effectively when new processes are introduced during execution.
 - Ensuring proper memory management when removing completed processes from the circular linked list.
+- Ensuring that their remaining times are accurately tracked upon restart.
  
 # 1024-bit Primality Testing 
 
