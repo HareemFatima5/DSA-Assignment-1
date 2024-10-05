@@ -33,5 +33,5 @@ This implements a primality testing algorithm for a 1024-bit number using a in C
 - C++ Compiler (e.g., vs code , visual studio)
 
 ## Contributors
-- [Hareem Fatima](https://github.com/5555523)
+- [Hareem Fatima](https://github.com/HareemFatima5)
 
