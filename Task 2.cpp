@@ -113,7 +113,7 @@ uint64_t modular_exponentation(uint64_t base, uint64_t exponent, uint64_t mod) {
 	return result;
 }
 
-// Miller Rabin primality test
+// algorithm for primality test
 bool is_prime(LinkedList& linked_list, int k = 10) {
 
 	// reconstructing the number
